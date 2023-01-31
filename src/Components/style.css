@@ -1,0 +1,136 @@
+/* Header */
+
+header {
+  transition: 0.5s;
+}
+
+header.sticky {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  @apply bg-white py-5 z-50 fixed;
+}
+
+header.sticky .menu-list li a {
+  @apply text-black hover:text-yellow-600;
+}
+
+header.sticky .site-logo {
+  @apply text-black border-black;
+}
+
+@media (max-width: 991px) {
+  .bg-home {
+    background-position: center center;
+  }
+
+  .nav-menu.active {
+    display: block;
+    @apply bg-black;
+  }
+
+  header.sticky .ham {
+    @apply bg-black;
+  }
+
+  header.sticky .hamburger-react div {
+    background: black !important;
+  }
+
+  header.sticky .ham-menu {
+    @apply top-16;
+  }
+}
+
+.logo {
+  @apply uppercase cursor-pointer;
+}
+
+.site-logo {
+  @apply border-2 py-1 px-5 border-white text-white text-xl font-semibold;
+}
+
+.nav {
+  @apply ml-auto;
+}
+
+.menu-list {
+  @apply flex gap-8 text-white;
+}
+
+.menu-list li a {
+  transition: 0.2s;
+  @apply font-semibold hover:text-yellow-500;
+}
+
+/* Home */
+
+.bg-home {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("https://demos.onepagelove.com/html/resto/img/hero_bg_1.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  @apply h-screen flex justify-center items-center;
+}
+
+/* About */
+
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: #ffa33e;
+  height: 4px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+/* Menu */
+
+.bg-menu {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)),
+    url("https://demos.onepagelove.com/html/resto/img/hero_bg_2.jpg");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+.menu-card {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+/* Footer */
+
+#footer {
+  height: 50vh;
+}
+
+@media (max-width: 991px) {
+  #footer {
+    height: 100vh;
+  }
+}
+
+.copyright {
+  background-color: #262626;
+}
+
+.hoveriser:hover .fa-icons {
+  transition: 0.3s;
+  color: white;
+}
