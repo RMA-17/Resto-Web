@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Resto-Web/static/css/main.a60edec1.css",
+    "main.js": "/Resto-Web/static/js/main.e53bbee0.js",
+    "index.html": "/Resto-Web/index.html",
+    "main.a60edec1.css.map": "/Resto-Web/static/css/main.a60edec1.css.map",
+    "main.e53bbee0.js.map": "/Resto-Web/static/js/main.e53bbee0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a60edec1.css",
+    "static/js/main.e53bbee0.js"
+  ]
+}
