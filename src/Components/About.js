@@ -42,10 +42,10 @@ const About = () => {
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          Voluptatibus quaerat laboriosam fugit non Ut consequatur animi est
-          molestiae enim a voluptate totam natus modi debitis dicta impedit
-          voluptatum quod sapiente illo saepe explicabo quisquam perferendis
-          labore et illum suscipit
+          Resto kami berdiri sejak tahun 2000 di Jakarta, kami membangun resto ini dengan sepenuh
+          hati dan dengan dedikasi tinggi agar para pelanggan kami puas menikmati masakan kami.
+          Dengan mendatangkan 5 koki dari berbagai negara dan ada 2 cabang di Indonesia, kami berhara
+          anda bisa dengan mudah mencapai hidangan terbaik kami, dengan kualitas yang terbaik
         </p>
         <p
           data-aos="fade-up"

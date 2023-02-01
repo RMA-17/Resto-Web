@@ -31,7 +31,7 @@ const Home = () => {
             data-aos="fade-up"
             data-aos-once="false"
           >
-            The Resto
+            Mamang Resto
           </h4>
           <p
             className="minititle max-lg:text-sm max-lg:text-center max-lg:px-4"
@@ -40,8 +40,7 @@ const Home = () => {
             data-aos="slide-up"
             data-aos-once="false"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, molestias.
+            Menyajikan berbagai macam makanan mancanegara dari berbagai daerah di belahan dunia
           </p>
         </div>
       </div>
